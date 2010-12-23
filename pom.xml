@@ -45,4 +45,11 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+	   <repository>
+	       <id>dotFormatterLocal</id>
+	       <url>file:maven_repo</url>
+	   </repository>
+	</distributionManagement>
 </project>
