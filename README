@@ -1,12 +1,40 @@
 dot-formatter - formatter for a dot DOM
 
-1) Maven Repository
+1) Maven Dependency
 2) Contact
 
 --------------------------------------------------------------------------
-Maven Repository
+Maven Dependency
 
-TOOD
+First you have to add the dot-formatter maven repository to your pom.xml. This
+can look like the following:
+
+<project ...>
+  ...
+  <repositories>
+    <repository>
+      <id>dotFormatterGithub</id>
+      <url>https://github.com/marook/dot-formatter/raw/master/maven_repo</url>
+    </repository>
+  </repositories>
+  ...
+</project>
+
+Now add the dependency to the dot-formatter:
+
+<project ...>
+  ...
+  <dependencies>
+    <dependency>
+      <groupId>com.github.marook</groupId>
+      <artifactId>dot-formatter</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+  </dependencies>
+  ...
+</project>
+
+Now you're done :-)
 
 --------------------------------------------------------------------------
 Contact
