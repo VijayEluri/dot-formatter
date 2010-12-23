@@ -30,3 +30,5 @@ git add maven_repo || fail "Can't add"
 git commit -a || fail "Can't commit"
 
 git tag "v$VERSION" || fail "Can't tag version"
+
+echo "Release is done. Don't forget to change your POM version to SNAPSHOT."
