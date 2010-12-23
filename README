@@ -14,7 +14,7 @@ can look like the following:
   <repositories>
     <repository>
       <id>dotFormatterGithub</id>
-      <url>https://github.com/marook/dot-formatter/raw/master/maven_repo</url>
+      <url> https://github.com/marook/dot-formatter/raw/master/maven_repo </url>
     </repository>
   </repositories>
   ...
